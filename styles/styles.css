@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Rubik', 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #f0f0f0;
+    color: #172742;
+    display: flex;
+    -ms-flex-align: start;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGZpcnN0JTIwY29tcGFueXxlbnwwfHx8fDE2OTI3NzE5NTg&ixlib=rb-4.0.3&q=80&w=1080');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.hero {
+    color: #172742;
+    padding: 2rem;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h2 {
+    padding-top: 4rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #f0f0f0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #f0f0f0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+.buttons a {
+    text-decoration: none;
+    color: #172742;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.hero__container img {
+    width: 30vw;
+    height: auto;
+    object-fit: cover;
+}
+.contact {
+    border: none;
+    background-color: #00D1DB;
+    color: #172742;
+    padding: 1rem;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.work {
+    background-color: #f0f0f0;
+    color: #172742;
+    padding: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 9px;
+}
+
+.work:hover {
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: #00B2C4;
+    cursor: pointer;
+}
+
+.about {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    color: #172742;
+    padding: 1rem;
+    text-align: center;
+}
