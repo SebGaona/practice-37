@@ -17,6 +17,7 @@ header {
     color: #172742;
     display: flex;
     -ms-flex-align: start;
+    justify-content: space-between;
     font-weight: 500;
     font-size: 1.2rem;
     padding: 1rem;
@@ -106,4 +107,25 @@ header {
     color: #172742;
     padding: 1rem;
     text-align: center;
+}
+
+footer {
+    background-color: #172742;
+    color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #f0f0f0;
+    color: #172742;
+    padding: 1rem
+}
+
+nav a {
+    text-decoration: none;
+    color: #172742;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-right:2rem ;
 }

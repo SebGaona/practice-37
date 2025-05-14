@@ -1,30 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sebastian Gaona - Desarrollador Frontend profesional. Creo sitios web y aplicaciones modernas, responsive y optimizadas para SEO.">
+    <meta name="keywords" content="desarrollador frontend, desarrollo web, portfolio, HTML, CSS, JavaScript, React, aplicaciones web">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Sebastian Gaona - Desarrollador Frontend">
+    <meta property="og:description" content="Portfolio profesional de Sebastian Gaona, desarrollador frontend especializado en crear experiencias web modernas.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tusitio.com">
+    <meta property="og:image" content="https://www.tusitio.com/img/frontend.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">  
-    <title>Portfolio</title>
+    <title>Sebastian Gaona | Desarrollador Frontend Profesional</title>
 </head>
 <body>
-    <header>
+    <header role="banner">
         <h1>Sebastian Gaona</h1>
+        <nav role="navigation">
+                <a href="#home" rel="noopener">Inicio</a>
+                <a href="#trabajos" rel="noopener">Trabajos</a>
+                <a href="#contacto" rel="noopener">Contacto</a>
+        </nav>
     </header>
-    <main>
+    <main role="main">
         <section class="hero__container">
             <div class="hero__img">
-                <img src="./img/frontend.png" alt="Hero Image">
+                <img src="./img/frontend.png" alt="Sebastian Gaona - Desarrollador Frontend creando interfaces modernas" width="600" height="400">
             </div>
             <article class="hero">
-                <h2>Frontend Developer</h2>
-                <p>Soy un desarrollador Frontend comprometido a crear la pagina o webapp que necesitas.</p>
-            <div class="buttons">
-                <button class="contact"><a>Contactame</a></button>
-                <button class="work"><a>Mi trabajo</a></button>
-            </div>
+                <h2>Desarrollador Frontend Profesional</h2>
+                <p>Soy un desarrollador Frontend comprometido a crear la página o webapp que necesitas.</p>
+                <div class="buttons">
+                    <button class="contact"><a href="#contacto" rel="noopener">Contáctame</a></button>
+                    <button class="work"><a href="#trabajos" rel="noopener">Mi trabajo</a></button>
+                </div>
             </article>
         </section>
         <section class="about">
@@ -34,5 +47,8 @@
             <p>Si estás interesado en trabajar conmigo, no dudes en ponerte en contacto. Estoy disponible para proyectos freelance y colaboraciones.</p>
         </section>
     </main>
+    <footer role="contentinfo">
+        <p>&copy; 2025 Sebastian Gaona. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
